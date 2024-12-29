@@ -19,4 +19,13 @@ function calc(op) {
 
     document.getElementById("result").value = result;
 
+    var newHistory = "<div>" + n1 + " " + op + " " + n2 + " = " + result + "</div>";
+    var history = document.getElementById("history");
+
+    history.innerHTML = newHistory + history.innerHTML;
+
+    if(history.children.length > 10) {
+        history.removeChild(history.childNodes[10]);
+    }
+
 }

@@ -57,3 +57,30 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+.calc-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.last-operations{
+    text-align: right;
+    padding: 20px;
+}
+
+.history-title {
+    display: flex;
+    justify-content: center;
+}
+
+.history {
+    background-color: #000; 
+    color: #fff;   
+
+    width: 400px;    
+    
+    border-radius:10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
